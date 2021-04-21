@@ -1,0 +1,30 @@
+<configuration>
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>10.82.100.33,10.82.100.34,10.82.100.35</value>
+    </property>
+    <property>
+        <name>hbase.zookeeper.property.clientPort</name>
+        <value>2181</value>
+    </property>
+    <property>
+        <name>hbase.client.operation.timeout</name>
+        <value>10000</value>
+    </property>
+    <property>
+        <name>hbase.client.scanner.caching</name>
+        <value>10000</value>
+    </property>
+    <property>
+        <name>hbase.security.authentication</name>
+        <value>simple</value>
+    </property>
+    <property>
+        <name>hbase.client.retries.number</name>
+        <value>2</value>
+    </property>
+    <property>
+        <name>zookeeper.recovery.retry</name>
+        <value>1</value>
+    </property>
+</configuration>
