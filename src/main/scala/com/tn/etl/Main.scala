@@ -13,7 +13,7 @@ object Main {
       try {
         spark = SparkUtilities.startSession("spark_simple")
         logger.info("Start Job")
-        //TODO
+        //TODO Something
         logger.info("Job Complete")
       } catch {
         case e:Exception =>
